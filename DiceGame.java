@@ -28,9 +28,9 @@ public class DiceGame {
 
 	if(total > 7){
 	    
-	    System.out.printf("you won!\n");
+	    System.out.printf("%s won!\n",name);
 	} else {
-	    System.out.printf("you lost!\n");
+	    System.out.printf("%s lost!\n",name);
 	}
     }
 
