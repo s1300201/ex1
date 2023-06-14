@@ -1,6 +1,7 @@
 import java.util.Random;
 
 
+
 public class DiceGame {
     public static void main(String args[]){
     
@@ -14,8 +15,15 @@ public class DiceGame {
 	System.out.printf("Die 1: %d\n", die1);
 	System.out.printf("Die 2: %d\n",die2);
 	System.out.printf("Total value: %d\n",total);
-    
+
+	if(total > 7){
+	    
+	    System.out.printf("you won!\n");
+	} else {
+	    System.out.printf("you lost!\n");
+	}
     }
+
 }
 
     
